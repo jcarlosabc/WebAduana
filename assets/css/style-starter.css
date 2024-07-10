@@ -15097,6 +15097,7 @@ a.view:hover {
     line-height: 46px;
   }
   .w3l-main-slider .banner-view {
+    background: url(../images/bienvenidoMovil.png) no-repeat center;
     min-height: 440px;
     margin-top:60px;
   }
@@ -15105,6 +15106,7 @@ a.view:hover {
 
 @media (max-width:440px) {
   .w3l-main-slider .banner-view {
+    background: url(../images/bienvenidoMovil.png) no-repeat center;
     min-height: 400px;
   }
   .w3l-main-slider .banner-info-bg h5 {
@@ -17112,7 +17114,7 @@ p.count-text {
   }
 }
 /* pantallas de pc y portatiles */
-@media (max-width: 1368px) {
+/* @media (max-width: 1368px) {
   .item {
     width: 1590px;
   }
@@ -17129,7 +17131,7 @@ p.count-text {
 }
 
 /* moviles */
-@media (max-width: 430px) {
+/* @media (max-width: 430px) {
   .item {
     width: 192%;
   }
@@ -17140,10 +17142,11 @@ p.count-text {
     width: 229%;
   }
 }
-@media (max-width: 411px) {
+*/
+/* @media (max-width: 440px) {
   .item {
-    width: 209%;
+
   }
-}
+  }   */
 
 /*# sourceMappingURL=style-freedom.css.map */
