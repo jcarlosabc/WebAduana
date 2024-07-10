@@ -17134,11 +17134,11 @@ p.count-text {
     width: 192%;
   }
 }
-      /*
-@media (max-width: 430px) {
+      
+@media (max-width: 360px) {
   .item {
-    width: 192%;
+    width: 229%;
   }
-} */
+}
 
 /*# sourceMappingURL=style-freedom.css.map */
