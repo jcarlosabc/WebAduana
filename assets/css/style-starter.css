@@ -15099,7 +15099,7 @@ a.view:hover {
   .w3l-main-slider .banner-view {
     background: url(../images/bienvenidoMovil.png) no-repeat center;
     min-height: 440px;
-    margin-top:60px;
+    margin-top  :60px;
   }
 
 }
@@ -15108,6 +15108,19 @@ a.view:hover {
   .w3l-main-slider .banner-view {
     background: url(../images/bienvenidoMovil.png) no-repeat center;
     min-height: 400px;
+  }
+  .w3l-main-slider .banner-info-bg h5 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+}
+
+@media (max-width:390px) {
+  .w3l-main-slider .banner-view {
+    background: url(../images/bienvenidoMovilIphone.png) no-repeat center;
+    min-height: 400px;
+    width: 108%;
   }
   .w3l-main-slider .banner-info-bg h5 {
     font-size: 34px;
