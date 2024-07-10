@@ -1,4 +1,4 @@
-<!-- <?html include 'headers/head.html'; ?> -->
+<!-- html include 'headers/head.html'; ?> -->
 <!doctype html>
 <html lang="es">
 
@@ -91,7 +91,7 @@
     <div class="container py-lg-5 py-md-4">
       <h3 class="hny-title mb-lg-5 mb-4">Ponerse en Contacto</h3>
         <div class="contacts12-main mb-5">
-            <form action="https://sendmail.w3layouts.com/submitForm" method="post">
+            <form action="enviarEmail.php" method="post">
                 <div class="main-input">
                     <div class="d-grid">
                         <input type="text" name="w3lName" id="w3lName" placeholder="Nombre y Apellido o Entidad" class="contact-input" />
@@ -108,7 +108,7 @@
                 <textarea class="contact-textarea" name="w3lMessage" id="w3lMessage"
                     placeholder="Descripción o Mensaje" required></textarea>
                 <div class="text-right">
-                    <button class="btn btn-style btn-secondary btn-contact">Enviar</button>
+                    <input type="submit" class="btn btn-style btn-secondary btn-contact" value="enviar">
                 </div>
             </form>
         </div>
@@ -119,8 +119,10 @@
                   <div class="col-lg-4 col-md-6">
                       <div class="contact-address">
                           <ul>
-                              <li class="icon-color"><span class="fa fa-map-marker"></span> <span>Dirección
-                                <br>Cartagena de Indias, Colombia</span> 
+                              <li class="icon-color"><span class="fa fa-map-marker"></span> 
+                              <span>Dirección
+                                <br>Transversal 44 No. 21 58  piso 2  Bosque Cartagena - Colombia
+                              </span> 
                               </li>
                           </ul>
                       </div>

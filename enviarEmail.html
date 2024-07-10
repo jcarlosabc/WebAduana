@@ -1,0 +1,26 @@
+<?php  
+
+// Llamando a los campos
+$nombre = $_POST['w3lName'];
+$telefono = $_POST['w3lPhone'];
+$correo = $_POST['w3lSender'];
+$subject = $_POST['w3lSubject'];
+$mensaje = $_POST['w3lMessage'];
+
+// Datos para el correo
+$destinatario = "aduana@correo.v21technology.com";
+$asunto = $subject;
+
+$carta = "De: $nombre \n";
+$carta .= "Correo: $correo \n";
+$carta .= "Telefono: $telefono \n";
+$carta .= "Mensaje: $mensaje";
+
+$headers = "From: $correo ";
+$headers .= "Reply-To: $correo\r\n";
+$headers .= "X-Mailer: PHP/" . phpversion();
+
+// Enviando Mensaje
+mail($destinatario, $asunto, $carta, $headers);
+
+?>
