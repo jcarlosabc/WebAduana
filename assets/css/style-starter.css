@@ -17140,5 +17140,10 @@ p.count-text {
     width: 229%;
   }
 }
+@media (max-width: 411px) {
+  .item {
+    width: 200%;
+  }
+}
 
 /*# sourceMappingURL=style-freedom.css.map */
