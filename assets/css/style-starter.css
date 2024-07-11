@@ -14348,7 +14348,7 @@ a.link-style:hover:before {
 
 @media (max-width: 600px) {
   .hny-title {
-    font-size: 32px !important;
+    font-size: 27px !important;
     line-height: 38px;
   }
   .sub-title {
@@ -15908,6 +15908,7 @@ a.read span {
 
 .w3l-services1 .cwp4-text {
   align-self: center;
+  padding-left: 21px;
 }
 
 .w3l-services1 .cwp4-text h4,
@@ -15953,7 +15954,8 @@ a.read span {
 
 @media all and (max-width: 991px) {
   .w3l-services1 .cwp4-image img {
-    width: 100%;
+    width: 98%;
+    height: 116px;;
   }
 
   .w3l-services1 .cwp4-text h4,
