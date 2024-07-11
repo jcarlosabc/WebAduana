@@ -14532,7 +14532,8 @@ header {
   color: var(--logo-color);
 }
 .navbar .navbar-brand span{
-  color:var(--secondary-color);
+  color:#004aad;
+  /* color:var(--secondary-color); */
 }
 .navbar .navbar-brand:hover {
   opacity: 0.95;
@@ -14864,7 +14865,7 @@ nav ul li a:hover {
   }
 
   .navbar .navbar-brand {
-    font-size: 20px !important;
+    font-size: 17px !important;
   }
 
   .mobile-position {
@@ -14982,17 +14983,17 @@ a.view:hover {
   margin-top:51px;
 }
 
-/* .w3l-main-slider .banner-top1 {
-  background: url(../images/logistico7.jpg) no-repeat center;
+.w3l-main-slider .banner-top1 {
+  background: url(../images/logistica5.png) no-repeat center;
   background-size: cover;
   min-height:100vh;
-} */
+}
 
-/* .w3l-main-slider .banner-top2 {
-  background: url(../images/logistico4.png) no-repeat center;
+.w3l-main-slider .banner-top2 {
+  background: url(../images/procesos_logisticos.png) no-repeat center;
   background-size: cover;
   min-height:91vh;
-} */
+}
 
 /* .w3l-main-slider .banner-top3 {
   background: url(../images/logistico3.jpg) no-repeat center;
@@ -15101,12 +15102,30 @@ a.view:hover {
     min-height: 440px;
     margin-top  :60px;
   }
+  .w3l-main-slider .banner-top1{
+    background: url(../images/logistica5Movil.png) no-repeat center;
+    min-height: 440px;
+    margin-top  :60px;
+  }
+  .w3l-main-slider .banner-top2{
+    background: url(../images/procesos_logisticosMovil.png) no-repeat center;
+    min-height: 440px;
+    margin-top  :60px;
+  }
 
 }
 
 @media (max-width:440px) {
   .w3l-main-slider .banner-view {
     background: url(../images/bienvenidoMovil.png) no-repeat center;
+    min-height: 400px;
+  }
+  .w3l-main-slider .banner-top1 {
+    background: url(../images/logistica5Movil.png) no-repeat center;
+    min-height: 400px;
+  }
+  .w3l-main-slider .banner-top2 {
+    background: url(../images/procesos_logisticosMovil.png) no-repeat center;
     min-height: 400px;
   }
   .w3l-main-slider .banner-info-bg h5 {
@@ -15119,6 +15138,16 @@ a.view:hover {
 @media (max-width:390px) {
   .w3l-main-slider .banner-view {
     background: url(../images/bienvenidoMovilIphone.png) no-repeat center;
+    min-height: 400px;
+    width: 108%;
+  }
+  .w3l-main-slider .banner-top1 {
+    background: url(../images/logistica5MovilIphone.png) no-repeat center;
+    min-height: 400px;
+    width: 108%;
+  }
+  .w3l-main-slider .banner-top2 {
+    background: url(../images/procesos_logisticosMovil.png) no-repeat center;
     min-height: 400px;
     width: 108%;
   }
@@ -15905,8 +15934,8 @@ a.read span {
 .w3l-services1 ul.cont-4 li span.fa {
   color: var(--secondary-color);
   margin-right: 12px;
-  background: var(--bg-light);
-  font-size: 10px;
+  /* background: var(--bg-light); */
+  /* font-size: 10px; */
   padding: 8px;
   border-radius: 50%;
   display: inline-block;
@@ -16405,7 +16434,7 @@ a.read span {
 /*--/breadcrumb--*/
 .w3l-about-breadcrumb {
   margin-top: 90px;
-  background: url(../images/banner_contactenos1.jpg) no-repeat center;
+  background: url(../images/contactenos.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 0;
@@ -16416,6 +16445,16 @@ a.read span {
 .aBout {
   margin-top: 90px;
   background: url(../images/sobre_nosotros.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+  padding: 1em 0;
+}
+.servIce {
+  margin-top: 90px;
+  background: url(../images/banner_servicios.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 0;
@@ -16790,7 +16829,7 @@ p.count-text {
 
 .contact-address {
   /* background: var(--primary-color); */
-  background: #3CB5FF;
+  background: #004aad;
   padding: 20px 20px;
   /* border-radius: var(--border-radius-1); */
   border-radius:52px ;
@@ -16874,8 +16913,37 @@ p.count-text {
   border-radius: 50%;
   transition: all 0.5s ease-out 0s;
 }
-
 .w3l-footer-29-main #movetop:hover {
+  transform: translate3d(0, -5px, 0);
+  -webkit-transform: translate3d(0, -5px, 0);
+  transition: 0.3s ease-out;
+}
+
+/* btn Whatsapp  */
+.w3l-footer-29-main #Whatsapp  {
+  display: none;
+  position: fixed;
+  bottom: 116px;
+  right: 15px;
+  z-index: 99;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  line-height: 35px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  -o-border-image: initial;
+  border-image: initial;
+  outline: none;
+  background: #346a8500;
+  border-radius: 50%;
+  transition: all 0.5s ease-out 0s;
+}
+
+.w3l-footer-29-main #Whatsapp:hover {
   transform: translate3d(0, -5px, 0);
   -webkit-transform: translate3d(0, -5px, 0);
   transition: 0.3s ease-out;
@@ -16914,7 +16982,7 @@ p.count-text {
 }
 
 .w3l-footer-29-main .footer-list-29 p {
-  color: #ababab;
+  color: #fff;
 }
 
 .w3l-footer-29-main .footer-list-29 .properties a p:hover {
@@ -16955,7 +17023,7 @@ p.count-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  color: #6e747b;
+  color: #fff;
 }
 
 .w3l-footer-29-main .footer-4 {
@@ -16970,8 +17038,9 @@ p.count-text {
 
 .w3l-footer-29-main .main-social-footer-29 a {
   margin-right: 10px;
-  color: #fff;
-  background: var(--footer-light);
+  color: #004AAD;
+  /* background: var(--footer-light); */
+  background: #fff;
   width: 35px;
   height: 35px;
   line-height: 36px;
@@ -17002,7 +17071,7 @@ p.count-text {
 }
 
 .w3l-footer-29-main .copy-footer-29 a {
-  color: #ccc;
+  color: #cccccc4d;
 }
 
 .w3l-footer-29-main .copy-footer-29 a:hover {
@@ -17093,7 +17162,7 @@ p.count-text {
 
 .w3l-footer-29-main p.copy-footer-29 {
   align-self: center;
-  color: #6e747b;
+  color: #fff;
 }
 @media (max-width:1280px) {
   .w3l-footer-29-main h6.footer-title-29 {
@@ -17142,8 +17211,11 @@ p.count-text {
     width: 100%;
   }
 }
-
-      
+section.w3l-cta4.py-5.about-class{
+  background: url(../images/mapa.svg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
 
 
 /*# sourceMappingURL=style-freedom.css.map */
